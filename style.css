@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'roboto',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(https://cdn.pixabay.com/photo/2016/10/17/19/37/dune-1748462_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.col{
+    flex-basis: 45%;
+}
+h1{
+    color: #fff;
+    font-size: 70px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 15px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 15px 25px;
+    transition: transform 0.5s;
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/08/15/22/namibia-2049203_640.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card1{
+     background-image: url(https://cdn.pixabay.com/photo/2022/04/29/08/50/desert-7162926_640.jpg);
+}
+.card2{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/03/12/arid-1867000_1280.jpg);
+}
+.card3{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/19/38/desert-1836586_640.jpg);
+}
+.card4{
+    background-image: url(https://cdn.pixabay.com/photo/2020/06/29/19/12/antelope-canyon-5353919_640.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000 ;
+    font-size: 10px;
+}
